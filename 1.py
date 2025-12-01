@@ -1,5 +1,5 @@
+from collections import deque
 def q1_1():
-    from collections import deque
     with open("input1.txt", "r", encoding="utf-8") as f:
         data = f.read()
         ins = data.splitlines()
@@ -28,7 +28,6 @@ def q1_1():
 
 
 def q1_2():
-    from collections import deque
     with open("input1.txt", "r", encoding="utf-8") as f:
         data = f.read()
         ins = data.splitlines()
